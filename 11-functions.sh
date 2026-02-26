@@ -11,11 +11,11 @@ else
 fi
 
     VALIDATE(){
-    if [ $? -eq 0 ]
+    if [ $1 -eq 0 ]
 then 
-    echo "installing mysql is success:"
+    echo "installing $2 is success:"
 else 
-    echo "installing mysql is failure"
+    echo "installing $2 is failure"
     exit 1
  fi
     }
