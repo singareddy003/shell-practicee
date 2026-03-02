@@ -1,6 +1,6 @@
 #/bin/bash
 
-person1=modi
+person1=modi #there should be no spache before or after =
 person2=mask
 
 echo "$person1:: hey $person2, how are you?"
